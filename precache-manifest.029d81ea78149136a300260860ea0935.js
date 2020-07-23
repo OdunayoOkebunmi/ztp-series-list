@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68f00d48cb756bf05a97fc5911962bc9",
+    "revision": "31ca2a7eac33014110105e5e1bb6439f",
     "url": "/ztp-series-list/index.html"
   },
   {
-    "revision": "9204f94ca66ce0fc2b56",
+    "revision": "967732d98679554075e0",
     "url": "/ztp-series-list/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "2816da6ed3d94199f948",
+    "revision": "4c4c2b9283daef01a870",
     "url": "/ztp-series-list/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "9204f94ca66ce0fc2b56",
-    "url": "/ztp-series-list/static/js/2.0d8b1630.chunk.js"
+    "revision": "967732d98679554075e0",
+    "url": "/ztp-series-list/static/js/2.1c9cf79e.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/ztp-series-list/static/js/2.0d8b1630.chunk.js.LICENSE.txt"
+    "url": "/ztp-series-list/static/js/2.1c9cf79e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2816da6ed3d94199f948",
-    "url": "/ztp-series-list/static/js/main.c8226e98.chunk.js"
+    "revision": "4c4c2b9283daef01a870",
+    "url": "/ztp-series-list/static/js/main.7e88347a.chunk.js"
   },
   {
     "revision": "213035d7261b63cbaf0d",

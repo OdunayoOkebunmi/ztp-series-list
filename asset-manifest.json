@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/ztp-series-list/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/ztp-series-list/static/js/main.c8226e98.chunk.js",
-    "main.js.map": "/ztp-series-list/static/js/main.c8226e98.chunk.js.map",
+    "main.js": "/ztp-series-list/static/js/main.7e88347a.chunk.js",
+    "main.js.map": "/ztp-series-list/static/js/main.7e88347a.chunk.js.map",
     "runtime-main.js": "/ztp-series-list/static/js/runtime-main.ed0fee4e.js",
     "runtime-main.js.map": "/ztp-series-list/static/js/runtime-main.ed0fee4e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/ztp-series-list/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.0d8b1630.chunk.js": "/ztp-series-list/static/js/2.0d8b1630.chunk.js",
-    "static/js/2.0d8b1630.chunk.js.map": "/ztp-series-list/static/js/2.0d8b1630.chunk.js.map",
+    "static/js/2.1c9cf79e.chunk.js": "/ztp-series-list/static/js/2.1c9cf79e.chunk.js",
+    "static/js/2.1c9cf79e.chunk.js.map": "/ztp-series-list/static/js/2.1c9cf79e.chunk.js.map",
     "index.html": "/ztp-series-list/index.html",
-    "precache-manifest.50e0cf2949da934daa995db8393a99fd.js": "/ztp-series-list/precache-manifest.50e0cf2949da934daa995db8393a99fd.js",
+    "precache-manifest.029d81ea78149136a300260860ea0935.js": "/ztp-series-list/precache-manifest.029d81ea78149136a300260860ea0935.js",
     "service-worker.js": "/ztp-series-list/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/ztp-series-list/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/ztp-series-list/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.0d8b1630.chunk.js.LICENSE.txt": "/ztp-series-list/static/js/2.0d8b1630.chunk.js.LICENSE.txt"
+    "static/js/2.1c9cf79e.chunk.js.LICENSE.txt": "/ztp-series-list/static/js/2.1c9cf79e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ed0fee4e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.0d8b1630.chunk.js",
+    "static/js/2.1c9cf79e.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.c8226e98.chunk.js"
+    "static/js/main.7e88347a.chunk.js"
   ]
 }
