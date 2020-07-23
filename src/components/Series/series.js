@@ -17,7 +17,6 @@ class Series extends Component {
     fetch(`https://api.tvmaze.com/singlesearch/shows/?q=${this.state.queryName}&embed=episodes`)
       .then(response => response.json())
       .then(json => this.setState({ series: json, isFetching: false, queryName: '', episodes: json._embedded.episodes }));
-
   }
 
   handleChange = event => {

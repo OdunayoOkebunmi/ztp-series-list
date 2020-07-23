@@ -1,17 +1,12 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { Title, CardContainer } from './series-card-styles';
-import SeriesList from './series-list';
+import { Title, CardContainer, Name } from './series-card-styles';
+import SeriesList from './series-episode-list';
 
-const SeriesInfo = ({ series: { name, image, summary, premiered, runtime, genres }, episodes, series }) => {
+const SeriesInfo = ({ series: { name, image, summary, premiered, runtime, genres }, episodes }) => {
   const description = summary.replace(/<[^>]*>/g, '');
   const premieredDate = new Date(premiered).toDateString();
-  // const seasonsArray = [];
-  // let season = episodes.map((items) => {
-  //   seasonsArray.push(items.season)
-  // })
-  // season = new Set(seasonsArray)
-  // console.log(season)
+
   return (
 
     <div className="container">
@@ -19,15 +14,15 @@ const SeriesInfo = ({ series: { name, image, summary, premiered, runtime, genres
         <div className="col-sm-4">
           <Card>
             <CardContainer>
-              <Title>{ name }</Title>
+              <Name>{ name }</Name>
               <p>Number of Episodes: { episodes.length }</p>
               <p>Premiered: { premieredDate }</p>
               <p>Runtime: { runtime } mins</p>
               <p>Genre: { genres[0] } </p>
-              <Card.Img variant="top" src={ image.original } />
+              <Card.Img variant="top" src={ image ? image.original : null } />
               <Card.Body>
                 <Card.Text>
-                  { description }
+                  { description ? description : null }
                 </Card.Text>
               </Card.Body>
             </CardContainer>
